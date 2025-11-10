@@ -1,0 +1,21 @@
+# Ignore all test and generated files
+*.txt
+!stopwords.txt
+!tfidf_docs.txt
+
+# Ignore preprocessed and TF-IDF outputs
+preproc_*.txt
+tfidf_*.txt
+
+# Ignore any test or sample docs
+test*.txt
+doc*.txt
+covid_doc*.txt
+
+# Ignore Jupyter auto-saves
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore zip builds
+hw2.zip
